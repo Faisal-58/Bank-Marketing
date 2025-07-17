@@ -33,14 +33,18 @@ Key features:
 2. **Exploratory Data Analysis** (Power BI visualization)
    A basic PowerBI dashboard is used for viewing the important insights of the dataset.
    
-5. **Feature Engineering**
-6. **Balancing**: Used SMOTE to handle class imbalance
+3. **Balancing**: Used SMOTE to handle class imbalance
+The data was highly imbalanced as it is also evident from the dashboard below and also when value_counts are calculated for the dataset with respect to the the target variable (y), the results are as follows:
+y
+no     36548
+yes     4640
+Name: count, dtype: int64
+Normally, the datasets of the marketing campaign are highly imbalanced. The main reason is the fact that only a small people subscribe, while most of the people dont subscribe on these compaigns which is significantly highlighted in the data.
 7. **Model Selection**:
-   - Logistic Regression  
+   - Logistic Regression   
    - Random Forest  
    - XGBoost (Best performer)
 8. **Evaluation**:
-   - Confusion Matrix  
    - Classification Report  
    - ROC-AUC Curve
 
@@ -53,7 +57,7 @@ An interactive Power BI dashboard was created to understand:
 - Balance and duration impact
 - Overall success rate of marketing campaign
 
-![Dashboard Screenshot](path/to/your/dashboard.png)
+ ![PowerBI insights](images/power_bi.png)
 
 ---
 
