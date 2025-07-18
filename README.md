@@ -47,6 +47,7 @@ Normally, the datasets of the marketing campaign are highly imbalanced. The main
 5. **Evaluation**:
    - Classification Report  
    - ROC-AUC Curve
+   - Confusion Matrix
 
 ---
 
@@ -122,6 +123,20 @@ The model performes well on the majority class but have also shown some areas wh
 **AUC = 1: Perfect separation**
 
 **AUC > 0.90: Excellent**
+
+**Confusion Matrix(XGBoost)**
+![Confusion Matrix for XGBoost](images/confusion_matirx.png)
+
+The confusion matrix is showing the model is performing decently with a decent recall of 72% for class 1 which is the minority class in this case. It performs decent with catching positives.
+
+### 📉 Recall (Sensitivity / True Positive Rate)
+
+**Formula:**  
+Recall = TP / (TP + FN)
+
+**Calculation:**  
+Recall = 668 / (668 + 260) ≈ **72.0%**
+
 
 **Saved best model: XGBoost**
 
