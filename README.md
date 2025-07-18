@@ -76,28 +76,24 @@ An interactive Power BI dashboard was created to understand:
 The ROC-AUC scores of the all the models are listed below. The top performer is XGBoost follwed by random forest and then Logistic regression. The ROC-AUC scores are listed below for better understanding.
 
 Training model: Random Forest
+
 Random Forest ROC-AUC: 0.9471
 
 Training model: Logistic Regression
+
 Logistic Regression ROC-AUC: 0.9435
 
 Training model: XGBoost
+
 XGBoost ROC-AUC: 0.9515
 
 Best model: XGBoost with ROC-AUC: 0.9515
 
 Below the classification report is also shown for XGBoost, as the model out performes the other models.
+
 Classificatioin report:
-              precision    recall  f1-score   support
 
-           0       0.96      0.94      0.95      7310
-           1       0.60      0.72      0.65       928
-
-    accuracy                           0.91      8238
-   macro avg       0.78      0.83      0.80      8238
-weighted avg       0.92      0.91      0.92      8238
-
-ROC-AUC curve: 0.9515
+![Classification Report for XGBoost](images/classification_report_xgboost.png)
 
 **Explanation for Classification Report**
 
