@@ -125,7 +125,7 @@ The model performes well on the majority class but have also shown some areas wh
 **AUC > 0.90: Excellent**
 
 **Confusion Matrix(XGBoost)**
-![Confusion Matrix for XGBoost](images/confusion_matirx.png)
+![Confusion Matrix for XGBoost](images/confusion_matrix.png)
 
 The confusion matrix is showing the model is performing decently with a decent recall of 72% for class 1 which is the minority class in this case. It performs decent with catching positives.
 
