@@ -132,6 +132,14 @@ The model performes well on the majority class but have also shown some areas wh
 **Why XGBoost Outperformed Random Forest and Logistic Regression?**
 One basic reason of XGBoost outperforming random forest is the mehanism working behind them. Both are ensemble techniques but random forest works on Bagging mechanism whereas XGBoost works on Boosting mechanism. XGBoost uses gradient boosting, which focuses on correcting previous errors, leading to better handling of complex patterns and class imbalance. On the otherhand, Random Forest uses bagging, which trains independent trees and averages the results. It doesn’t correct mistakes as boosting does.
 
+**Summary**
+| Model               | ROC-AUC | Notes                                                              |
+| ------------------- | ------- | ------------------------------------------------------------------ |
+| **XGBoost**         | 0.9515  | Best performer due to boosting, regularization, imbalance handling |
+| Random Forest       | 0.9471  | Very close, but lacks boosting advantage                           |
+| Logistic Regression | 0.9431  | Limited due to linearity; can’t capture complex patterns           |
+
+
 
 
 
