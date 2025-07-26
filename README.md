@@ -17,6 +17,7 @@ Marketing campaigns are costly and time-sensitive. Using client data from a Port
 - **Source**: UCI Bank Marketing Dataset  
 - **Records**: 41,188  
 - **Target Variable**: `y` → (Subscribed: Yes/No)
+- The dataset can be uploaded using the link https://archive.ics.uci.edu/dataset/222/bank+marketing.
 
 Key features:
 - Age, Job, Marital Status, Education  
