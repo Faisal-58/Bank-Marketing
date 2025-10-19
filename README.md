@@ -165,6 +165,8 @@ Docker Hub Image: **faisal58/bank-marketing-app:v1.0**
 
 Ensure Docker is Running: Start your Docker Desktop application.
 
+Pull the docker image: **docker pull faisal58/bank-marketing-app:v1.0**
+
 Run the Container: Execute this single command in your terminal (Bash, CMD, or PowerShell): **docker run -d --name bank_predictor -p 8001:8000 -p 8501:8501 faisal58/bank-marketing-app:v1.0**
 
 **Access the Application:**
@@ -174,4 +176,5 @@ Access Point:
 Streamlit UI **http://localhost:8501** Interactive interface for testing the model.
 
 FastAPI Docs **http://localhost:8001/docs** Swagger documentation for API endpoints.
+
 
