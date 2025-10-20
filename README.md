@@ -151,8 +151,30 @@ One basic reason of XGBoost outperforming random forest is the mehanism working 
 | Random Forest       | 0.9471  | Very close, but lacks boosting advantage                           |
 | Logistic Regression | 0.9431  | Limited due to linearity; can’t capture complex patterns           |
 
-
-
-
-
 ---
+
+**Deployment**
+
+Deployment Instructions
+
+The final application is compiled into a single, self-contained Docker image, making it instantly portable and reproducible.
+
+Docker Hub Image: **faisal58/bank-marketing-app:v1.0**
+
+**Steps to Run Locally:**
+
+Ensure Docker is Running: Start your Docker Desktop application.
+
+Pull the docker image: **docker pull faisal58/bank-marketing-app:v1.0**
+
+Run the Container: Execute this single command in your terminal (Bash, CMD, or PowerShell): **docker run -d --name bank_predictor -p 8001:8000 -p 8501:8501 faisal58/bank-marketing-app:v1.0**
+
+**Access the Application:**
+
+Access Point:
+
+Streamlit UI **http://localhost:8501** Interactive interface for testing the model.
+
+FastAPI Docs **http://localhost:8001/docs** Swagger documentation for API endpoints.
+
+
